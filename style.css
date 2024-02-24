@@ -1,0 +1,94 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,168,1) 35%, rgba(0,212,255,1) 100%)
+}
+.header{
+  
+min-height: 910px;
+}
+.container{
+max-height:1440px;
+margin: 0 auto;
+}
+.promo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider{
+  display: flex;
+  align-items: start;
+}
+.title{
+  font-family: 'Alex Brush', sans-serif;
+  color: white;
+  font-size: 64px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  padding: 100px;
+}
+
+.promo-inner{
+   position: relative; 
+   margin-bottom: 80px ;
+}
+ .slider-img{
+  position: relative;
+  left: 0;
+ right: 0;
+} 
+.buttons{
+margin: 0 auto;
+}
+img{
+  width: 568px;
+  height: 480px;
+  border-radius: 30px;
+}
+button { 
+    font-family: "CustomFont", Arial, sans-serif;
+    width: 80px; height: 80px; 
+    border-radius: 50%; 
+    /* border: none; 
+    vertical-align: top; 
+    border-color: black;
+    border: 1px;
+    cursor: pointer; */
+ }
+
+.butt-kr{
+  margin-right: 35px;
+    background-color: #FF007A;
+}
+.butt-ms{
+  margin-right: 35px;
+    background-color: #0066FF; 
+}
+.butt-gl{ 
+    background-color: #36DF51; 
+}
+.overlay {
+  position: absolute; 
+  background: rgba(57, 57, 57, 0.5);
+  text-align: center;
+  border-radius: 50px ;
+} 
+ .overlay_1{
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  padding: 1rem;
+  font-size: large;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* @media screen(max-width 730px) {
+  img{
+    width: 150px;
+    height: 100px;
+  }
+} */
